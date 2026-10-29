@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Registration & Enquiry | Greenfield United Football Club</title>
+    <meta name="description" content="Register a player or enquire about sponsorship, volunteering or services at Greenfield United Football Club, Johannesburg. Online form with instant feedback.">
+    <meta name="keywords" content="football registration Johannesburg, GUFC player registration, soccer sponsorship enquiry, volunteer coach, Greenfield United join">
+    <meta name="author" content="Greenfield United Football Club">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://greenfieldunitedfc.co.za/enquiry.html">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <nav aria-label="Main navigation">
+            <a href="home.html"><img src="Images/Logo.jpg" alt="Greenfield United Football Club Logo" width="85" height="85">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="services.html">Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Player Registration & Enquiries</h1>
+        <p>Use this form to register a player, enquire about sponsorship packages, volunteering opportunities, or club services. Once validated, you will receive an immediate response with relevant information about costs, availability or next steps.</p>
+
+        <form id="enquiryForm" action="mailto:info@greenfieldunitedfc.co.za" method="post" enctype="text/plain" novalidate>
+            <fieldset>
+                <legend>Enquiry / Registration Form</legend>
+
+                <label for="enquiryTypeSelect">Type of Enquiry:</label>
+                <select id="enquiryTypeSelect" name="enquiryType" required>
+                    <option value="">-- Select Enquiry Type --</option>
+                    <option value="registration">Player Registration</option>
+                    <option value="sponsorship">Sponsorship Opportunity</option>
+                    <option value="volunteer">Volunteering / Coaching</option>
+                    <option value="services">General Services Enquiry</option>
+                </select>
+
+                <label for="playerName">Full Name (Player or Contact Person):</label>
+                <input type="text" id="playerName" name="playerName" required minlength="3">
+
+                <label for="dob">Date of Birth (for player registration):</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="ageGroup">Age Group (if registering a player):</label>
+                <select id="ageGroup" name="ageGroup">
+                    <option value="">-- Select Age Group --</option>
+                    <option value="u9">Under-9</option>
+                    <option value="u11">Under-11</option>
+                    <option value="u13">Under-13</option>
+                    <option value="u15">Under-15</option>
+                    <option value="u17">Under-17</option>
+                    <option value="seniorA">Senior A</option>
+                    <option value="seniorB">Senior B</option>
+                </select>
+
+                <label for="enquiryEmail">Email Address:</label>
+                <input type="email" id="enquiryEmail" name="email" required>
+
+                <label for="enquiryPhone">Contact Number:</label>
+                <input type="tel" id="enquiryPhone" name="phone" required placeholder="e.g. 082 123 4567">
+
+                <label for="position">Preferred Position (optional):</label>
+                <input type="text" id="position" name="position" placeholder="e.g. Striker, Goalkeeper">
+
+                <label for="experience">Additional Information / Experience:</label>
+                <textarea id="experience" name="experience" rows="4" placeholder="Tell us more about your enquiry, previous experience, or any questions..."></textarea>
+
+                <div style="margin-bottom: 1rem;">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent" style="display: inline; font-weight: normal;">I agree to the club's terms and conditions and consent to being contacted regarding this enquiry.</label>
+                </div>
+
+                <input type="submit" value="Submit Enquiry">
+                <input type="reset" value="Clear Form">
+            </fieldset>
+        </form>
+
+        <h2>What Happens Next?</h2>
+        <ul>
+            <li><strong>Player Registration:</strong> Fee is R850 per season. A representative confirms availability within 48 hours.</li>
+            <li><strong>Sponsorship:</strong> Packages start from R2,500/year. You will receive a full media pack.</li>
+            <li><strong>Volunteering:</strong> We currently need coaches for U11 and U13 teams.</li>
+        </ul>
+        <p>Prefer a general message? Use our <a href="contact.html">Contact form</a> instead.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Greenfield United Football Club | ST10510187 #DISD1</p>
+        <p><a href="home.html">Home</a> | <a href="about.html">About</a> | <a href="services.html">Services</a> | <a href="enquiry.html">Enquiry</a> | <a href="contact.html">Contact</a></p>
+    </footer>
+
+    <button id="backToTop" title="Back to top" aria-label="Back to top">↑</button>
+    <script src="JScript/main.js"></script>
+</body>
+</html>

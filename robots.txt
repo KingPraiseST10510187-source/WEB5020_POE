@@ -1,0 +1,5 @@
+# robots.txt for Greenfield United Football Club
+User-agent: *
+Allow: /
+
+Sitemap: https://greenfieldunitedfc.co.za/sitemap.xml
