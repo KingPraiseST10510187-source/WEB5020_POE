@@ -10,7 +10,7 @@ This repository contains the complete website for **Greenfield United Football C
 
 ## Live Demo
 
-*(Add your Netlify / GitHub Pages URL here after deployment)*
+**Live website:** [https://kingpraisest10510187-source.github.io/WEB5020_POE/home.html](https://kingpraisest10510187-source.github.io/WEB5020_POE/home.html)
 
 ## Pages
 
@@ -21,7 +21,7 @@ This repository contains the complete website for **Greenfield United Football C
 | Services | `services.html` | Teams with search/filter, sponsorship packages |
 | Enquiry | `enquiry.html` | Player registration & sponsorship/volunteer enquiry form |
 | Gallery | `gallery.html` | Photo gallery with lightbox |
-| Contact | `contact.html` | Contact details, interactive Leaflet map, contact form |
+| Contact | `contact.html` | Contact details, Google Maps embed, contact form |
 
 ## Features (Part 3)
 
